@@ -11,6 +11,8 @@
     color: black;
 }
 
+/* HEADER */ 
+
 .row {
    width: 100%;
    max-width: 1200px;
@@ -34,7 +36,7 @@ nav {
 }
 
 .Logo {
-margin-top: 48px;
+margin-top: 42px;
 padding-left: 8px;
 font-size: 22px;
 font-weight: 900;
@@ -54,7 +56,7 @@ margin-top: 40px;
 }
 
 .nav-links {
-    margin-left: 400px;
+    margin-left: 470px;
 }
 
 .nav-link {
@@ -77,8 +79,10 @@ a:hover {
 }
 
 button {
-padding: 6px 24px;
-border-radius: 24px;
+padding: 12px 24px;
+border-radius: 26px;
+border-color: white;
+border-style: none;
 font-size: 14px;
 font-weight: 700;
 color: white;
@@ -86,9 +90,99 @@ background-color: rgb(100, 21, 255);
 }
 
 button:hover {
-    background-color: rgb(91, 30, 205);
+    background-color: rgb(74, 22, 169);
     cursor: pointer;
     transition: .6s ease;
 }
 
 
+.row-two {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.motto {
+font-size: 48px;
+font-weight: 900;
+line-height: 1.3;
+max-width: 500px;
+margin-top: 80px;
+}
+
+.purple {
+    color: rgb(100, 21, 255);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.sub-motto {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 48px;
+    color: rgb(94, 88, 88);
+    line-height: 1.5;
+
+}
+
+.react {
+    max-width: 730px;
+    height: 600px;
+    margin-top: 48px;
+    margin-left: 8px;
+}
+
+.sign-up {
+    margin-top: 48px;
+    display: flex;
+}
+
+.signup {
+    width: 2400px;
+    height: 63px;
+    border-radius: 32px;
+    font-size: 17px;
+    border: 2px solid rgb(209, 212, 214);
+    display: flex;
+    opacity: 0.3;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(100, 21, 255);
+    border-width: 2px;
+    opacity: 1;
+}
+
+.get-started {
+    display: flex; 
+    width: 550px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    transform: translate(-130px, 5px);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.trusted-holder {
+    margin-bottom: 48px;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.trusted-customers {
+    color: rgb(175, 176, 177); 
+    padding-bottom: 18px;  
+}
+
+.trusted-partners-img {
+    height: 32px;
+    color: rgb(175, 176, 177);
+    width: 100%;
+    max-width: 400px;
+    opacity: 0.5;
+}
