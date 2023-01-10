@@ -87,7 +87,7 @@ border-radius: 26px;
 border-color: white;
 border-style: none;
 font-size: 14px;
-font-weight: 700;
+font-weight: 500;
 color: white;
 background-color: rgb(100, 21, 255);
 }
@@ -107,7 +107,7 @@ LANDING PAGE
 
 .row-two {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -252,7 +252,7 @@ SERVICES
 
 .services-holder {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     margin-top: 48px;
     margin-bottom: 32px;
@@ -293,4 +293,62 @@ SERVICES
     color: rgb(154, 157, 159);
     font-weight: 500;
     line-height: 1.9;
+}
+
+/* 
+
+ROW THREE 
+
+*/
+
+.row-three {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.quality {
+    max-width: 600px;
+    height: 555px;
+    margin-right: 20px;
+}
+
+.quality-img {
+    width: 630px;
+    height: 430px;
+    padding: 8px;
+    margin-left: 30px;
+    border: 1px solid rgb(193, 194, 196);
+}
+
+.quality-head {
+    color: rgb(100, 21, 255);
+    font-weight: 700;
+    padding-bottom: 18px;
+}
+
+.quality-subhead {
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 28px;
+}
+
+.professionals {
+    color: rgb(100, 21, 255);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.quality-para-wrapper {
+    line-height: 2;
+}
+
+.quality-para {
+    font-size: 16px;
+}
+
+.quality-button-wrapper {
+    padding-top: 32px;
 }
