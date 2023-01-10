@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
 
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-size: 14px;
-    font-family: Roboto;
+    font-family: Poppins;
     font-weight: 500;
     color: black;
 }
@@ -15,7 +14,7 @@
 
 .row {
    width: 100%;
-   max-width: 1200px;
+   max-width: 1300px;
    margin: 0 auto;
 }
 
@@ -36,7 +35,7 @@ nav {
 }
 
 .Logo {
-margin-top: 42px;
+margin-top: 40px;
 padding-left: 8px;
 font-size: 22px;
 font-weight: 900;
@@ -177,6 +176,7 @@ input:focus {
 .trusted-customers {
     color: rgb(175, 176, 177); 
     padding-bottom: 18px;  
+    font-weight: 600;
 }
 
 .trusted-partners-img {
@@ -185,4 +185,40 @@ input:focus {
     width: 100%;
     max-width: 400px;
     opacity: 0.5;
+}
+
+/* FEATURES */ 
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.features-head {
+    margin-bottom: 24px;
+}
+
+.purple-features {
+    color: rgb(100, 21, 255);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.amazing-service {
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 18px;
+}
+
+.purple-service {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(100, 21, 255);
+}
+
+.lorem-20 {
+   line-height: 1.8;
+   color: rgb(94, 88, 88);
 }
