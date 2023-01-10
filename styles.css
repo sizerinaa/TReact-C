@@ -307,6 +307,7 @@ ROW THREE
     max-width: 1300px;
     margin: 0 auto;
     margin-top: 130px;
+    margin-bottom: 100px;
 }
 
 .quality {
@@ -351,4 +352,62 @@ ROW THREE
 
 .quality-button-wrapper {
     padding-top: 32px;
+}
+
+/*
+
+STEPS
+
+*/
+
+.steps-row {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin-bottom: 100px;
+}
+
+.steps-img-wrapper {
+margin-right: 50px;
+}
+
+.steps-img {
+    height: 450px;
+    width: 750px;
+    padding: 48px;
+}
+
+.steps-head {
+    font-weight: 700;
+    color: rgb(100, 21, 255);
+    max-width: 500px;
+}
+
+.steps-steps {
+    max-width: 410px;
+}
+
+.steps-subhead {
+    padding-top: 18px;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 32px;
+}
+
+.steps-span {
+    color: rgb(100, 21, 255);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.step-1 {
+    padding-bottom: 32px;
+    font-size: 18px;
+    color: rgb(154, 157, 159)
+}
+
+.step-para {
+    padding-top: 12px;
+    font-size: 16px;
+    color: rgb(154, 157, 159)
 }
