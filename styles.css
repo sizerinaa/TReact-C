@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
 * {
     margin: 0%;
@@ -10,7 +10,11 @@
     color: black;
 }
 
-/* HEADER */ 
+/* 
+
+HEADER 
+
+*/ 
 
 .row {
    width: 100%;
@@ -94,6 +98,12 @@ button:hover {
     transition: .6s ease;
 }
 
+
+/*
+
+LANDING PAGE 
+
+*/
 
 .row-two {
     width: 100%;
@@ -187,13 +197,18 @@ input:focus {
     opacity: 0.5;
 }
 
-/* FEATURES */ 
+
+/* 
+
+FEATURES 
+
+*/ 
 
 .features {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .features-head {
@@ -220,5 +235,62 @@ input:focus {
 
 .lorem-20 {
    line-height: 1.8;
-   color: rgb(94, 88, 88);
+   color: rgb(154, 157, 159);
+   line-height: 1.9;
+}
+
+.wrap-holder {
+    margin-top: 32px;
+}
+
+
+/* 
+
+SERVICES 
+
+*/
+
+.services-holder {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.service {
+    display: flex;
+    width: calc(100% / 3);
+    padding: 38px;
+}
+
+.service-img-wrapper {
+    padding-right: 18px;
+}
+
+.service-img {
+    border: 1px solid rgb(175, 176, 177);
+    border-radius: 50%;
+    padding: 18px;
+    opacity: 0.5;
+}
+
+.service-description {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.service-description-para {
+    padding-top: 24px;
+    color: rgb(154, 157, 159);
+    font-weight: 500;
+    line-height: 1.9;
 }
