@@ -348,6 +348,7 @@ ROW THREE
 
 .quality-para {
     font-size: 16px;
+    color: rgb(154, 157, 159)
 }
 
 .quality-button-wrapper {
@@ -403,11 +404,202 @@ margin-right: 50px;
 .step-1 {
     padding-bottom: 32px;
     font-size: 18px;
-    color: rgb(154, 157, 159)
+    color: rgb(110, 113, 116);
+    font-weight: 600;
 }
 
 .step-para {
     padding-top: 12px;
     font-size: 16px;
     color: rgb(154, 157, 159)
+}
+
+
+/*
+
+VALUES 
+
+*/
+
+
+.values-row {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.values-head {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    color: rgb(100, 21, 255);
+   width: 100%;
+   max-width: 500px;
+   margin-right: 50px;
+}
+
+.value-side-holder {
+    width: 100%;
+}
+
+.value-img {
+   width: 100%;
+    max-width: 650px;
+    height: 550px;
+    margin-left: 0px;
+}
+
+.values-subhead {
+    padding-top: 18px;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 32px;
+}
+
+.principles {
+    color: rgb(100, 21, 255);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.values-para {
+    padding-top: 8px;
+    font-size: 16px;
+    color: rgb(154, 157, 159);
+    padding-bottom: 48px;
+    font-size: 18px;
+}
+.values-1 {
+    display: flex; 
+    margin-bottom: 52px;
+}
+
+.values-2 {
+    display: flex;
+}
+
+.values-3 {
+    display: flex;
+    margin-left: 48px;
+}
+
+.affordable-img {
+    height: 40px;
+    width: 40px;
+}
+
+.professional-img {
+    height: 32px;
+    width: 32px;
+}
+
+.value-name {
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(110, 113, 116);
+}
+
+.value-para {
+font-size: 16px;
+margin-bottom: 12px;
+color: rgb(154, 157, 159);
+}
+
+/* 
+
+PRICING 
+
+*/ 
+
+.pricing-row {
+    width: 100%;
+   max-width: 1300px;
+   margin: 0 auto;
+}
+
+.pricing-head {
+    font-weight: 700;
+    color: rgb(100, 21, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-subhead {
+    padding-top: 18px;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 32px;
+}
+
+.plans-purple {
+    color: rgb(100, 21, 255);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.pricing-para {
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(154, 157, 159);
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 48px;
+}
+
+/*
+
+PRICING
+
+*/
+
+.pricing-row {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.pricing-tag {
+    display: flex;
+    justify-content: space-between;
+    width: calc(1200/3);
+}
+
+.pricing-personal {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(154, 157, 159);
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+}
+
+.personal-spend {
+    
+
+}
+
+.subscription-personal-para-wrapper {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.subscription-personal-para {
+    font-size: 16px;
+}
+
+.pricing-list {
+    list-style: none;
+}
+
+.pricing-ul {
+    display: flex;
+    flex-direction: column;
 }
