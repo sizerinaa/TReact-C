@@ -569,7 +569,8 @@ PRICING
 .pricing-tag {
     display: flex;
     justify-content: space-between;
-    width: calc(1200/3);
+    width: calc(900/3);
+    margin: 0 auto;
 }
 
 .pricing-personal {
@@ -577,13 +578,25 @@ PRICING
     flex-direction: column;
     border: 1px solid rgb(154, 157, 159);
     border-radius: 8px;
-    padding: 12px;
+    padding: 70px;
     text-align: center;
 }
 
-.personal-spend {
-    
+.personal-head {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
 
+.personal-spend {
+    font-size: 48px;
+    font-weight: 600;
+    color: black;
+}
+
+.businesses-spend {
+    font-size: 48px;
+    font-weight: 600;
+    color: whitesmoke;
 }
 
 .subscription-personal-para-wrapper {
@@ -597,9 +610,33 @@ PRICING
 
 .pricing-list {
     list-style: none;
+    padding-bottom: 12px;
 }
 
 .pricing-ul {
     display: flex;
     flex-direction: column;
+}
+
+.pricing-businesses {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    /* Linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%); */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(154, 157, 159);
+    border-radius: 8px;
+    padding: 70px;
+    text-align: center;
+}
+
+.pricing-ulb {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+margin-bottom: 32px;
+}
+
+.pricing-listb {
+    color: white;
+    padding-bottom: 12px;
 }
