@@ -569,7 +569,7 @@ PRICING
 .pricing-tag {
     display: flex;
     justify-content: space-between;
-    width: calc(900/3);
+    max-width: calc(800/3);
     margin: 0 auto;
 }
 
@@ -578,13 +578,50 @@ PRICING
     flex-direction: column;
     border: 1px solid rgb(154, 157, 159);
     border-radius: 8px;
-    padding: 70px;
     text-align: center;
+    height: 550px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.pricing-businesses {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(154, 157, 159);
+    border-radius: 8px;
+    text-align: center;
+    height: 550px;
+    padding-top: 60px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.pricing-enterprise {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(154, 157, 159);
+    border-radius: 8px;
+    padding: 60px;
+    text-align: center;
+    height: 550px;
 }
 
 .personal-head {
     font-size: 18px;
     margin-bottom: 18px;
+    letter-spacing: 0.07rem;
+    font-weight: 600;
+}
+
+.personal-headb{
+    font-size: 18px;
+    margin-bottom: 18px;
+    letter-spacing: 0.09rem;
+    font-weight: 600;
+    color: white;
 }
 
 .personal-spend {
@@ -599,34 +636,50 @@ PRICING
     color: whitesmoke;
 }
 
+.subscription-time {
+margin-bottom: 32px;
+color: rgb(171, 181, 202);
+font-weight: 600;
+letter-spacing: 0.05rem;
+font-size: 18px;
+}
+
+.subscription-timeb {
+    margin-bottom: 32px;
+color: white;
+font-weight: 600;
+letter-spacing: 0.05rem;
+font-size: 18px;
+}
+
 .subscription-personal-para-wrapper {
     font-size: 18px;
     font-weight: 600;
 }
 
+.subscription-personal-para-wrapperb {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
 .subscription-personal-para {
     font-size: 16px;
+    border-top: 2px solid rgb(102 126 234);
+    opacity: 1;
+    width: 100%;
 }
 
 .pricing-list {
     list-style: none;
     padding-bottom: 12px;
+    color: rgb(154, 157, 159);
 }
 
 .pricing-ul {
     display: flex;
     flex-direction: column;
-}
-
-.pricing-businesses {
-    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
-    /* Linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%); */
-    display: flex;
-    flex-direction: column;
-    border: 1px solid rgb(154, 157, 159);
-    border-radius: 8px;
-    padding: 70px;
-    text-align: center;
+    margin-bottom: 32px;
 }
 
 .pricing-ulb {
@@ -637,6 +690,50 @@ margin-bottom: 32px;
 }
 
 .pricing-listb {
-    color: white;
+    color: whitesmoke;
     padding-bottom: 12px;
 }
+
+.personal-buy {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    width: 100%;
+    max-width: 150px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+.business-buy {
+    background-color: white;
+    color: rgb(100, 21, 255);
+    width: 100%;
+    max-width: 150px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+.business-buy:hover {
+    background-color: rgb(221, 227, 231);
+}
+
+.enterprise-buy {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    width: 100%;
+    max-width: 150px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+/* .enterprise-highlight {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    color:rgb(245, 101, 101);
+} */
+
